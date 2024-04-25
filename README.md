@@ -93,11 +93,15 @@ Each block in this section is defined like this:
 
 ##### Where:
 'X' - Wall
+
 'P' - Entry
+
 'K' - Exit
 
 ### 3. Output Text File
 Output text file contains solved maze in steps (1 line = 1 step) :
+
+![](https://raw.githubusercontent.com/MrMozart3/MazeSolver-C-MemoryLimited/e3dd943842fd146e9c72954516cc27c11294b3e7/example_maze.png)
 
 ##### Example:
 
