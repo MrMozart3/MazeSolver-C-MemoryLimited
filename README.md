@@ -38,7 +38,7 @@ Runs program in debug mode
 `-h`
 Shows Help Message
 
-##Files
+## Files
 Program accepts files in two types Binary and standard text file.
 ### 1. Binary File
 ##### Binary File can contain maze and solution at the same time. It has to follow this structure:
@@ -79,7 +79,7 @@ Each block in this section is defined like this:
 | File ID | 4 | File ID: 0x52524243  |
 | Steps | 4 | Steps to solve maze (0 means 1 occourance, 1 means 2...) |
 
-> File containing only maze (without solution) should end at File ID.
+> Input File containing only maze (without solution) should end at File ID in section 3.
  
 ##### Solution Steps ( section 4 ):
 
@@ -96,3 +96,12 @@ Each block in this section is defined like this:
 'P' - Entry
 'K' - Exit
 
+### 3. Output Text File
+Output text file contains solved maze in steps (1 line = 1 step) :
+
+##### Example:
+
+>N 3
+>E 1
+>S 2
+>W 3
