@@ -102,6 +102,9 @@ Output text file contains solved maze in steps (1 line = 1 step) :
 ##### Example:
 
 >N 3
+>
 >E 1
+>
 >S 2
+>
 >W 3
